@@ -19,4 +19,5 @@ int main () {
     char buf[256];
     cin >> buf;
     sock.write_some(buffer(buf, 256));
+    sock.close();
 }

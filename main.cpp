@@ -18,6 +18,7 @@ int main(int argc, char **argv) {
     char buf[256];
     sock.read_some(buffer(buf, 256));
     cout << buf << endl;
+    sock.close();
 
     return 0;
 }
