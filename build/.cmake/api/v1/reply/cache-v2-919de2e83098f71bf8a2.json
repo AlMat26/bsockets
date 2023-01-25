@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/cmake/Boost-1.80.0"
+			"value" : "/data/data/com.termux/files/usr/lib/cmake/Boost-1.80.0"
 		},
 		{
 			"name" : "Boost_INCLUDE_DIR",
@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/include"
+			"value" : "/data/data/com.termux/files/usr/include"
 		},
 		{
 			"name" : "Boost_SYSTEM_LIBRARY_RELEASE",
@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/lib/libboost_system.so.1.80.0"
+			"value" : "/data/data/com.termux/files/usr/lib/libboost_system.so.1.80.0"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/addr2line"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "RelWithDebInfo"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -95,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/alexey/projects/bsockets/build"
+			"value" : "/data/data/com.termux/files/home/bsockets/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -134,6 +134,22 @@
 			"value" : "1"
 		},
 		{
+			"name" : "CMAKE_COLOR_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable color output during build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
 			"name" : "CMAKE_COMMAND",
 			"properties" : 
 			[
@@ -143,7 +159,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/cmake"
+			"value" : "/data/data/com.termux/files/usr/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -155,7 +171,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/cpack"
+			"value" : "/data/data/com.termux/files/usr/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -167,7 +183,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/ctest"
+			"value" : "/data/data/com.termux/files/usr/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -183,7 +199,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/c++"
+			"value" : "/data/data/com.termux/files/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -195,11 +211,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "LLVM archiver"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -211,11 +227,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "Generate index for LLVM archive"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -311,7 +327,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/cc"
+			"value" : "/data/data/com.termux/files/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -323,11 +339,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "LLVM archiver"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -339,11 +355,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "Generate index for LLVM archive"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -439,19 +455,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_DLLTOOL-NOTFOUND"
-		},
-		{
-			"name" : "CMAKE_EDIT_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to cache edit program executable."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/usr/bin/ccmake"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-dlltool"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -550,12 +554,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "ON"
+			"type" : "BOOL",
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -579,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/alexey/projects/bsockets/build/CMakeFiles/pkgRedirects"
+			"value" : "/data/data/com.termux/files/home/bsockets/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -591,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -639,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/alexey/projects/bsockets"
+			"value" : "/data/data/com.termux/files/home/bsockets"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -679,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "/data/data/com.termux/files/usr/bin/ld.lld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -691,11 +699,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Program used to build from build.ninja files."
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ninja"
+			"value" : "/data/data/com.termux/files/usr/bin/make"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -791,7 +799,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -819,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objcopy"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -835,7 +843,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objdump"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -899,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -915,7 +923,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/readelf"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -927,7 +935,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake"
+			"value" : "/data/data/com.termux/files/usr/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1135,7 +1143,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
+			"value" : "/data/data/com.termux/files/usr/bin/llvm-strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1147,7 +1155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/uname"
+			"value" : "/data/data/com.termux/files/usr/bin/uname"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1175,7 +1183,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/cmake/Boost-1.80.0/BoostConfig.cmake][cfound components: system ][v1.80.0()]"
+			"value" : "[/data/data/com.termux/files/usr/lib/cmake/Boost-1.80.0/BoostConfig.cmake][cfound components: system ][v1.80.0()]"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1203,7 +1211,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/cmake/boost_headers-1.80.0"
+			"value" : "/data/data/com.termux/files/usr/lib/cmake/boost_headers-1.80.0"
 		},
 		{
 			"name" : "boost_system_DIR",
@@ -1219,7 +1227,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/cmake/boost_system-1.80.0"
+			"value" : "/data/data/com.termux/files/usr/lib/cmake/boost_system-1.80.0"
 		},
 		{
 			"name" : "bsockets_BINARY_DIR",
@@ -1231,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/alexey/projects/bsockets/build"
+			"value" : "/data/data/com.termux/files/home/bsockets/build"
 		},
 		{
 			"name" : "bsockets_IS_TOP_LEVEL",
@@ -1255,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/alexey/projects/bsockets"
+			"value" : "/data/data/com.termux/files/home/bsockets"
 		}
 	],
 	"kind" : "cache",

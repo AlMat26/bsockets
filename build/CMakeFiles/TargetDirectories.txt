@@ -1,8 +1,8 @@
-/home/alexey/projects/bsockets/build/CMakeFiles/bsockets.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/client.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/edit_cache.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/rebuild_cache.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/list_install_components.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/install.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/install/local.dir
-/home/alexey/projects/bsockets/build/CMakeFiles/install/strip.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/bsockets.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/client.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/list_install_components.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/install.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/install/local.dir
+/data/data/com.termux/files/home/bsockets/build/CMakeFiles/install/strip.dir

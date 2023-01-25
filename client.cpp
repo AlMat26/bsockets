@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <boost/asio.hpp>
 
 using namespace std;
@@ -11,7 +12,11 @@ int main () {
     io_service service;
     ip::tcp::endpoint ep;
     ep.port(9999);
-    ep.address(ip::address::from_string("127.0.0.1"));
+
+    cout << "Введите ip адрес:\t";
+    string addr;
+    cin >> addr;
+    ep.address(ip::address::from_string(addr));
 
     ip::tcp::socket sock (service);
     sock.connect(ep);
